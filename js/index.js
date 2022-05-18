@@ -42,18 +42,9 @@ console.log(sumNum(13, 30));*/
 Если отрицательное - пусть функция вернет true, 
 а если нет - false.*/
 
-/*function checkNumber(num) {
+// let checkNumber = (num) => num < 0;
 
-  return num < 0 ? true: false;
-}
-
-alert(checkNumber(33));*/
-
-/*function checkNumber(num) {
-  return num < 0;
-}
-
-console.log(checkNumber(-1));*/
+// console.log(checkNumber(-1));
 
 /*let checkNumber = (num) => num < 0;
 console.log(checkNumber(30));*/
@@ -378,11 +369,10 @@ const data = [0, 1, false, 2, undefined, '', 3, null];
 
 console.log(compact(data));*/
 
-/*const data = [0, 1, false, 2, undefined, '', 3, null];
-const compact = data.filter(function(num) {
-  return typeof num === 'number' && num > 0;
-});
-console.log(compact);*/
+// const data = [0, 1, false, 2, undefined, '', 3, null];
+// const compact = data.filter(num => typeof num === 'number' && num > 0);
+
+// console.log(compact);
 
 /*From Pairs. Напишите функцию, которая возвращает объект, 
 составленный из значений вложенных массивов. Первое элемент 
@@ -443,46 +433,31 @@ console.log(unique(data));
 /*IsEqual. Напишите функцию, которая сравнивает два массива
  и возвращает true, если они идентичны.*/
 
-/*const isEqual = (firstArray, secondArray) => {
+// const isEqual = (firstArray, secondArray) => {
 
-  for (let i = 0; i < firstArray.length; i++) {
-    if ((firstArray[i] !== secondArray[i]) || 
-    (firstArray.length !== secondArray.length)) {
-
-      return false;
-    }
-  }
-
-  return true;
-};*/
-
-/*const isEqual = (firstArray, secondArray) => {
-
-  for (let i = 0; i < firstArray.length; i++) {
-    if (
-      firstArray.length !== secondArray.length
-    ) {
-    return false;
-  }
+//   for (let i = 0; i < firstArray.length; i++) {
+//     if (
+//       firstArray.length !== secondArray.length
+//     ) {
+//     return false;
+//   }
   
-    if (
-      firstArray.length !== secondArray.length ||
-      firstArray[i] !== secondArray[i] 
-    ) {
-      return false;
-    }
-    }
-    return true;
-  };
+//     if (
+//       firstArray[i] !== secondArray[i] 
+//     ) {
+//       return false;
+//     }
+//     }
+//     return true;
+//   };
 
-
-const arr1 = [1, 2, 3, 4];
-const arr2 = [1, 2, 3, 4];
-const arr3 = [1, 2, 5, 4];
-const arr4 = [1, 2, 3, 4, 5];
-console.log(isEqual(arr1, arr2)); // true
-console.log(isEqual(arr1, arr3)); // false
-console.log(isEqual(arr1, arr4)); // false*/
+// const arr1 = [1, 2, 3, 4];
+// const arr2 = [1, 2, 3, 4];
+// const arr3 = [1, 2, 5, 4];
+// const arr4 = [1, 2, 3, 4, 5];
+// console.log(isEqual(arr1, arr2)); // true
+// console.log(isEqual(arr1, arr3)); // false
+// console.log(isEqual(arr1, arr4)); // false
 
 /*Дан двухмерный массив с числами, например [[1, 2, 3], [4, 5], [6]]. 
 Найдите сумму элементов этого массива. Массив, конечно же, может 
@@ -517,11 +492,9 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log(newArr);*/
 
-/*const arr = [1, 4, -9, 17, -4, -5, -9, 3];
-let result = arr.filter(function (num) {
-  return num > 0;
-});
-console.log(result);*/
+// const arr = [1, 4, -9, 17, -4, -5, -9, 3];
+// let result = arr.filter(num => num > 0);
+// console.log(result);
 
 
 /*Сделайте функцию getDigitsSum (digit - это цифра), 
@@ -600,8 +573,6 @@ console.log(chunk(data, 3)); // [[1, 2, 3], [4, 5, 6], [7]]*/
 
 const result = str => str.split(' ').map(ucfirst).join(' ');
 console.log(result('hello my lovely family'));*/
-
-
 
 
 
