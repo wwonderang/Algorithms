@@ -350,25 +350,6 @@ console.log(reverse(arr));*/
   * @param {Array} array - Массив любых элементов
   * @returns {Array}*/
 
-/*const compact = (array) => {
-  let result = [];
-
-  for (let i = 1; i < array.length; i++) {
-    if (typeof array[i] !== 'number') {
-      delete array[i];
-    } else {
-
-    result.push(array[i]);
-    }
-  }
-
-  return result;
-};
-
-const data = [0, 1, false, 2, undefined, '', 3, null];
-
-console.log(compact(data));*/
-
 // const data = [0, 1, false, 2, undefined, '', 3, null];
 // const compact = data.filter(num => typeof num === 'number' && num > 0);
 
@@ -481,16 +462,6 @@ console.log(result);*/
 если число положительное, и false - если отрицательное.*/
 
 /*let isPositive = (num) => num > 0 ? true : false;
-
-const arr = [1, 4, -9, 17, -4, -5, -9, 3];
-let newArr = [];
-for (let i = 0; i < arr.length; i++) {
-  if (isPositive(arr[i])) {
-    newArr.push(arr[i]);
-  }
-}
-
-console.log(newArr);*/
 
 // const arr = [1, 4, -9, 17, -4, -5, -9, 3];
 // let result = arr.filter(num => num > 0);
